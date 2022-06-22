@@ -33,11 +33,11 @@ char idVaga1[] = "1a82c1fc-b2c7-45d9-8dd4-707f176476c9"; // carrinho Amarelo - L
 char idVaga2[] = "7fc6db75-58f1-4299-ae95-c28c85bbed3d"; // carrinho Verde - Led Verde
 char idVaga3[] = "a756f3f9-ec9a-44d6-81df-816971280e9e"; // carrinho Azul - Led Azul
 
-const char* ssid = "IGOR_JAQUELINE";
+const char* ssid = "Igor_jaqueline";
 const char* password = "#vitoria1q2w";
 
-char serverNameOcupar[] = "http://192.168.31.154:5000/informar_ocupacao_vaga/";
-char serverNameDesocupar[] = "http://192.168.31.154:5000/informar_desocupacao_vaga/";
+char serverNameOcupar[] = "http://10.0.0.158:5000/informar_ocupacao_vaga/";
+char serverNameDesocupar[] = "http://10.0.0.158:5000/informar_desocupacao_vaga/";
 
 void configuration() {
   pinMode(LED_CARRO1, OUTPUT);
